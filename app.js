@@ -1,12 +1,11 @@
 /* exercice 1 */
 
-
 function isString(myString) {
-    return typeof myString === "String";
+    return typeof myString === "string";
 }
 
-isString("Marc") // true
-isString(2) // false
+console.log(isString("Marc")) // true
+console.log(isString(2)) // false
 
 /* exercice 2 */
 
