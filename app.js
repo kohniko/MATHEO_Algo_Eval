@@ -19,8 +19,15 @@ greetings(false) // Bienvenue cher parent
 /* exercice 3 */
 
 function checkWord(word) {
-
+    if (word.length < 3) {
+        console.log("Ce mot est trop court");
+    } else {
+        console.log("Le mot " + word + " est tout à fait correct");
+    }
 }
 
 checkWord("qw") // Ce mot est trop court
 checkWord("pizza") // Le mot pizza est tout à fait correct
+
+/* exercice 4 */
+
