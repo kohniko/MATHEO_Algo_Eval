@@ -34,7 +34,7 @@ greetings(false) // Bienvenue cher parent
 
 ```JavaScript
 function checkWord(word) {
-    
+
 }
 
 checkWord("qw") // Ce mot est trop court
