@@ -1,5 +1,6 @@
 /* exercice 1 */
 
+
 function isString(myString) {
     return typeof myString === "String";
 }
@@ -15,3 +16,12 @@ function greetings(isStudent) {
 
 greetings(true) // Bienvenue cher élève
 greetings(false) // Bienvenue cher parent
+
+/* exercice 3 */
+
+function checkWord(word) {
+
+}
+
+checkWord("qw") // Ce mot est trop court
+checkWord("pizza") // Le mot pizza est tout à fait correct
